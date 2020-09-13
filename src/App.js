@@ -2,10 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+export default () => {
   return (
-  
+    <React.Fragment>
+      
+    </React.Fragment>
   );
-}
-
-export default App;
+};
