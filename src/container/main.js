@@ -31,7 +31,7 @@ export default (props) => {
   const [filterYear] = useState(filters.years);
   const [filterLaunch] = useState(filters.launch);
   const [filterLanding] = useState(filters.landing);
-  const [selectedFilter] = useState({
+  const [selectedFilter, setSelectedFilter] = useState({
     year: "",
     launch: "",
     landing: "",
